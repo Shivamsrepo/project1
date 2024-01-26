@@ -6,6 +6,9 @@
     <title>Treasure Bazaar | Home</title>
     <link rel="shortcut icon" type="image/png" href="assets/pics/eigenlogo.png">
     <link rel="stylesheet" href="assets/style/index.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    
 </head>
 <body>
     <header>
@@ -113,4 +116,18 @@
     </nav>
 
 </body>
+<script>
+    new Glide('#carouselWrapper', {
+        type: 'carousel',
+        startAt: 0,
+        perView: 5, // Pas dit aan aan het aantal zichtbare items dat je wilt
+        focusAt: 'center',
+        breakpoints: {
+            800: {
+                perView: 1
+            }
+            // Voeg indien nodig meer breakpoints toe
+        }
+    }).mount();
+</script>
 </html>
