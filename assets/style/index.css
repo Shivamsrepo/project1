@@ -41,6 +41,9 @@ a {
     font-family: "industry-ultra", sans-serif;
 }
 
+ul{
+    font-size: 3vw;
+}
 
 header{
     background-color: #818DA6;
@@ -102,6 +105,7 @@ main {
     text-align: right;
     position: relative;
     float: none;
+    margin: 20px 0;
 }
 
 .blok2 p {
@@ -190,4 +194,19 @@ main {
     width: 35px; 
     height: auto;
     margin-bottom: 5px;
+}
+
+
+
+/*  */
+.tips-list {
+    list-style-type: none;
+
+}
+
+.tips-list li {
+    margin-bottom: 10px;
+}
+#markt-top{
+    margin-top: 35px;
 }
