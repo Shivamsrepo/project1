@@ -34,7 +34,7 @@ h2 {
 }
 
 a {
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     color: #D9798B;
     text-decoration: none;
     /* font-weight: 800; */
@@ -84,6 +84,7 @@ main {
     text-align: left;
     position: relative;
     margin-bottom: 25px;
+    margin-left: 10px;
 }
 
 .blok1 p {
@@ -92,7 +93,7 @@ main {
 }
 
 .blok1 a.right-align {
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     color: #D9798B;
     text-decoration: none;
     text-align: right;
@@ -106,6 +107,7 @@ main {
     position: relative;
     float: none;
     margin: 20px 0;
+    margin-right: 10px;
 }
 
 .blok2 p {
@@ -115,7 +117,7 @@ main {
 .blok2 a.left-align {
     margin-top: 10px;
     margin-left: 0;
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     color: #D9798B;
     text-decoration: none;
     text-align: left;
@@ -188,10 +190,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 1em;
 }
 
 .sticky-nav img {
-    width: 35px; 
+    width: 25px; 
     height: auto;
     margin-bottom: 5px;
 }
@@ -230,4 +233,10 @@ main {
 }
 .first{
     color: aliceblue;
+}
+
+.data-list{
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 5%;
 }
