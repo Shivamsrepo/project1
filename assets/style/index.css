@@ -47,14 +47,14 @@ ul{
 
 header{
     background-color: #818DA6;
-    height: 15vh;
+    height: 13vh;
     width: 100vw;
     box-shadow: 0px 10px 25px 20px rgba(0, 0, 0, 0.2);
     z-index: 2;
 }
 
 #logo {
-    max-height: 15vh;
+    max-height: 12vh;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -208,5 +208,26 @@ main {
     margin-bottom: 10px;
 }
 #markt-top{
-    margin-top: 35px;
+    margin-top: 50px;
+    color:#f0f8ff
+}
+.margin5{
+    margin-top: 5%;
+}
+.margin10{
+    margin-top: 10%;
+}
+.margin20{
+    margin-top: 20%;
+}
+
+.blackblur{
+    box-shadow: 0 35px 120px -7px rgba(0,0,0,0.75)
+}
+.locatie{
+    color: aliceblue;
+    margin-top: 20%;
+}
+.first{
+    color: aliceblue;
 }
