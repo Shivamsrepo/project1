@@ -40,6 +40,9 @@ a {
     /* font-weight: 800; */
     font-family: "industry-ultra", sans-serif;
 }
+a:hover{
+    text-decoration: underline;
+}
 
 ul{
     font-size: 3vw;
@@ -58,6 +61,7 @@ header{
     height: auto;
     display: block;
     margin: 0 auto;
+    padding-top: 5px;
 }
 
 .top-pic {
@@ -100,6 +104,9 @@ header{
     display: block;
 }
 
+.blok1 a:hover{
+    text-decoration: underline;
+}
 
 /* blok2 */
 .blok2 {
@@ -122,6 +129,9 @@ header{
     text-decoration: none;
     text-align: left;
     display: block;
+}
+.blok2 a:hover{
+    text-decoration: underline;
 }
 
 /* blok3 */
@@ -211,7 +221,7 @@ header{
     margin-bottom: 10px;
 }
 #markt-top{
-    margin-top: 50px;
+    margin-top: 40px;
     color:#f0f8ff
 }
 .margin5{
