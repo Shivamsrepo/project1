@@ -102,13 +102,13 @@ header{
     text-decoration: none;
     text-align: right;
     display: block;
+    margin-right: 2%;
 }
 
 .blok1 a:hover{
     text-decoration: underline;
 }
 
-/* blok2 */
 .blok2 {
     text-align: right;
     position: relative;
@@ -123,7 +123,7 @@ header{
 
 .blok2 a.left-align {
     margin-top: 10px;
-    margin-left: 0;
+    margin-left: 2%;
     font-size: 4.5vw;
     color: #D9798B;
     text-decoration: none;
@@ -164,6 +164,7 @@ header{
 .carousel-wrapper {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    overflow: scroll;
 }
 
 .carousel-item {
